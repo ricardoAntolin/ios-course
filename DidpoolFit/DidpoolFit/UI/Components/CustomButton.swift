@@ -14,6 +14,7 @@ struct CustomButton: View {
             },
             label:{
                 Text("Register")
+                    .frame(maxWidth: .infinity)
             })
     }
 }

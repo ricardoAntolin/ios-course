@@ -19,6 +19,10 @@
 		7D09BC4E2ACDC3900017B67A /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D09BC4D2ACDC3900017B67A /* Launch Screen.storyboard */; };
 		7D09BC542ACDC8720017B67A /* CustomTextInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09BC532ACDC8720017B67A /* CustomTextInput.swift */; };
 		7D09BC562ACDD6E90017B67A /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09BC552ACDD6E90017B67A /* CustomButton.swift */; };
+		7D09BC582ACF01620017B67A /* LoginReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09BC572ACF01620017B67A /* LoginReducer.swift */; };
+		7D09BC5A2ACF0ED40017B67A /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09BC592ACF0ED40017B67A /* File.swift */; };
+		7D09BC5D2ACF15D00017B67A /* BLEConectionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09BC5C2ACF15D00017B67A /* BLEConectionProtocol.swift */; };
+		7D09BC5F2ACF1A330017B67A /* BLEConnectionImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D09BC5E2ACF1A330017B67A /* BLEConnectionImp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		7D09BC4D2ACDC3900017B67A /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		7D09BC532ACDC8720017B67A /* CustomTextInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextInput.swift; sourceTree = "<group>"; };
 		7D09BC552ACDD6E90017B67A /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		7D09BC572ACF01620017B67A /* LoginReducer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginReducer.swift; sourceTree = "<group>"; };
+		7D09BC592ACF0ED40017B67A /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		7D09BC5C2ACF15D00017B67A /* BLEConectionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEConectionProtocol.swift; sourceTree = "<group>"; };
+		7D09BC5E2ACF1A330017B67A /* BLEConnectionImp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEConnectionImp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,7 @@
 		7D09BC1C2ACDB8F30017B67A /* DidpoolFit */ = {
 			isa = PBXGroup;
 			children = (
+				7D09BC5B2ACF15B80017B67A /* Bluethooth */,
 				7D09BC512ACDC6F10017B67A /* Resources */,
 				7D09BC502ACDC6DD0017B67A /* UI */,
 				7D09BC1D2ACDB8F30017B67A /* DidpoolFitApp.swift */,
@@ -171,8 +180,19 @@
 			isa = PBXGroup;
 			children = (
 				7D09BC1F2ACDB8F30017B67A /* ContentView.swift */,
+				7D09BC572ACF01620017B67A /* LoginReducer.swift */,
+				7D09BC592ACF0ED40017B67A /* File.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		7D09BC5B2ACF15B80017B67A /* Bluethooth */ = {
+			isa = PBXGroup;
+			children = (
+				7D09BC5C2ACF15D00017B67A /* BLEConectionProtocol.swift */,
+				7D09BC5E2ACF1A330017B67A /* BLEConnectionImp.swift */,
+			);
+			path = Bluethooth;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -314,9 +334,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D09BC562ACDD6E90017B67A /* CustomButton.swift in Sources */,
+				7D09BC5A2ACF0ED40017B67A /* File.swift in Sources */,
+				7D09BC5F2ACF1A330017B67A /* BLEConnectionImp.swift in Sources */,
+				7D09BC5D2ACF15D00017B67A /* BLEConectionProtocol.swift in Sources */,
 				7D09BC542ACDC8720017B67A /* CustomTextInput.swift in Sources */,
 				7D09BC202ACDB8F30017B67A /* ContentView.swift in Sources */,
 				7D09BC1E2ACDB8F30017B67A /* DidpoolFitApp.swift in Sources */,
+				7D09BC582ACF01620017B67A /* LoginReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
