@@ -33,11 +33,11 @@ struct BLEManager {
 
 class pepe: BLEDelegate {
     func found(devices: [BLEDevice]) {
-        <#code#>
+        
     }
     
     func conectionState(device: BLEDevice, state: Bool) {
-        <#code#>
+        
     }
     
     var bleConnection: BLEConectionProtocol

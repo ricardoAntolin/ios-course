@@ -8,9 +8,11 @@
 import SwiftUI
 
 struct CustomButton: View {
+    
     var body: some View {
         Button(
             action:{
+                
             },
             label:{
                 Text("Register")

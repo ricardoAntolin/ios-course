@@ -8,8 +8,8 @@
 import ComposableArchitecture
 
 struct LoginReducer: Reducer {
-    enum Action {
-        case login
+    enum Action: Equatable {
+        case register
     }
     
     struct State: Equatable {
@@ -20,7 +20,7 @@ struct LoginReducer: Reducer {
     var body: some ReducerOf<Self> {
         Reduce { state, action in
             switch action {
-                case .login:
+                default:
                     return .none
             }
         }

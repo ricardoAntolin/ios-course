@@ -15,6 +15,7 @@ class BLEConnectionImp: NSObject, BLEConectionProtocol {
     private var discovered: [CBPeripheral] = []
     
     override init() {
+        super.init()
         self.manager = CBCentralManager(delegate: self, queue: nil)
     }
     
